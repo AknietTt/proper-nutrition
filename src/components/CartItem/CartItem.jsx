@@ -26,7 +26,7 @@ function CartItem({name, image, price}) {
 
   useEffect(() => {
     setTotal(price * quantity)
-  }, [quantity])
+  }, [quantity, price])
 
   return (
     <div className={style['container']}>
