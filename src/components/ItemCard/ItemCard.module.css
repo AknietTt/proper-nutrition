@@ -1,0 +1,39 @@
+.card {
+  width: 185px;
+  display: grid;
+  gap: 5px;
+}
+
+.picture, .picture img {
+  width: 185px;
+  height: 160px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.picture img:hover {
+  transform: scale(1.05);
+}
+
+.card span {
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+}
+
+.card button {
+  width: fit-content;
+  padding: 0 15px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--btn-bg);
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+

@@ -1,0 +1,38 @@
+.cart {
+  padding: 50px 75px;
+  display: grid;
+  gap: 50px;
+}
+
+.cart-header {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+  border-bottom: 1.5px solid #6c757d;
+}
+
+.back {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+}
+
+.back:hover {
+  color: var(--back-icon);
+}
+
+.order {
+  justify-self: center;
+  background-color: var(--btn-bg);
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: var(--btn-bg-hover);
+}

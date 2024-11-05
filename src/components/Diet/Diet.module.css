@@ -1,0 +1,187 @@
+.diet {
+  justify-self: center;
+  padding: 75px 0;
+  display: grid;
+  gap: 25px;
+}
+
+.description {
+  justify-self: center;
+  width: 500px;
+  text-align: center;
+  display: grid;
+  gap: 25px;
+}
+
+.gender { 
+  justify-self: center;
+  display: flex;
+  gap: 25px
+}
+
+.gender button {
+  border: none;
+  padding: 10px 25px;
+  background-color: var(--light-grey);
+  border-radius: 5px;
+}
+
+.gender button:focus {
+  background-color: var(--btn-bg-hover);
+}
+
+.diets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.calculator {
+  display: grid;
+  width: 280px;
+  height: 171px;
+  padding: 20px 25px;
+  background-color: var(--bg-white);
+  border-radius: 10px;
+}
+
+.calculator button {
+  width: fit-content;
+  padding: 5px 15px;
+  background-color: var(--btn-bg);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+.modal-close {
+  display: none;
+}
+
+.modal-open {
+  position: fixed;
+  justify-self: center;
+  align-self: center;
+  width: 400px;
+  height: 450px;
+
+  padding-bottom: 10px;
+  display: grid;
+  background-color: var(--bg-white);
+  text-align: center;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid var(--light-grey);
+}
+
+.modal-open div {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-open button {
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  padding: 10px 15px;
+  background-color: var(--white);
+  cursor: pointer;
+  font-size: small;
+}
+
+.calculate {
+  justify-self: center;
+  background-color: var(--btn-bg) !important;
+}
+
+.calculate:hover {
+  background-color: var(--btn-bg-hover) !important;
+}
+
+.modal-activity {
+  justify-content: start !important;
+  display: grid !important;
+}
+
+.modal-diet {
+  text-align: start !important;
+  justify-content: start !important;
+  display: grid !important;
+}
+
+.modal-body input {
+  width: 100px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-activity select {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px
+}
+
+.close-icon {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.modal-woman-btn {
+  background-color: var(--btn-bg-hover) !important;
+}
+
+.modal-man-btn {
+  background-color: var(--btn-bg-hover) !important;
+}
+
+.result-close {
+  display: none;
+}
+
+.result-open {
+  position: fixed;
+  justify-self: center;
+  align-self: center;
+  width: 400px;
+  height: 450px;
+
+  padding-bottom: 10px;
+  display: grid;
+  background-color: var(--bg-white);
+  text-align: center;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid var(--light-grey);
+}
+
+.result-diet {
+  justify-self: center;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  padding: 15px;
+  background-color: var(--white);
+  border-radius: 10px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.result-diet div {
+  display: grid;
+}
+
+.result-diet div span {
+  width: 75px;
+  overflow: hidden;
+}
+
+.active {
+  background-color: var(--btn-bg-hover) !important;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --dark-grey: #212529;
+  --light-grey: #adb5bd;
+  --white: #fff;
+  --black: #000;
+  --green: #aacc00;
+  --light-green: #C0D940;
+  --background-white: #faf9f6;
+  --bg-white: #edf2f4;
+  --btn-bg: #ffe97f;
+  --btn-bg2: #495057;
+  --btn-bg-hover: #ffdd32;
+  --btn-bg-hover2: #6c757d;
+  --back-icon: #219ebc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-white);
+  padding-bottom: 100px;
+}
+

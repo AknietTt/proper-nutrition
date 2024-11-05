@@ -1,0 +1,50 @@
+:root {
+  --map: #d90429;
+  --whatsapp: #55a630;
+  --email: #1a759f;
+  --smartphone: #6c757d;
+  --instagram: #f77f00;
+}
+
+.contact {
+  margin-top: 50px;
+  justify-self: center;
+}
+
+.top-section {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.top-section h2 {
+  margin-bottom: 15px;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  background-color: var(--bg-white);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.map {
+  color: var(--map);
+}
+
+.whatsapp {
+  color: var(--whatsapp)
+}
+
+.email {
+  color: var(--email)
+}
+
+.smartphone {
+  color: var(--smartphone);
+}
+
+.instagram {
+  color: var(--instagram);
+}

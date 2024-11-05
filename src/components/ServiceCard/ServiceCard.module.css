@@ -1,0 +1,39 @@
+.card {
+  width: 280px;
+  padding: 20px 25px;
+  background-color: var(--bg-white);
+  display: grid;
+  gap: 15px;
+  border-radius: 10px;
+  
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+}
+
+.top-section p {
+  margin-left: auto;
+  font-size: 14px;
+  color: rgb(163, 163, 163);
+}
+
+.bottom-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-section button {
+  border: none;
+  background-color: var(--btn-bg2);
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.bottom-section button:hover {
+  background-color: var(--btn-bg-hover2);
+}

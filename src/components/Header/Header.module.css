@@ -1,0 +1,114 @@
+.header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 50px;
+  background-color: var(--dark-grey);
+
+  font-size: 15px;
+  font-weight: 100;
+  color: var(--white);
+}
+
+.header > span:hover {
+  cursor: pointer;
+  color: var(--green);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--green);
+}
+
+.login div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+
+
+.cart-block {
+  pointer-events: none;
+  margin-left: auto;
+}
+
+.cart {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.cart sub {
+ color: var(--btn-bg-hover);
+}
+
+.modal-open {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+}
+
+.modal-close {
+  display: none;
+}
+
+
+.login-open {
+  width: 350px;
+  display: grid;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--dark-grey);
+}
+
+.login-close {
+  display: none;
+}
+
+.close {
+  position: relative;
+  margin-bottom: -15px;
+  cursor: pointer;
+}
+
+.login-open p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.login-open p span {
+  color: var(--green);
+}
+
+.login-open input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: (--white);
+}
+
+.login-open button {
+  background-color: var(--light-green);
+  margin-top: 15px;
+  width: fit-content;
+  padding: 5px 30px;
+  justify-self: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.login-open button:hover {
+  background-color: var(--green);
+}
